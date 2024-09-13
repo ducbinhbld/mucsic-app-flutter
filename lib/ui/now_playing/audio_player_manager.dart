@@ -25,7 +25,7 @@ class AudioPlayerManager {
 
   void updateSongUrl(String url) {
     songUrl = url;
-    prepare();
+    prepare(isNewSong: true);
   }
 
   void dispose() {
