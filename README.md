@@ -1,16 +1,19 @@
 # music_app
 
-A new Flutter project.
+1. Hướng dẫn chạy ứng dụng flutter trên máy ảo
 
-## Getting Started
+- B1: Mở dự án flutter (music_app) bằng Android Studio hoặc VScode
+- B2: chọn Device: Start Medium Phone API 35
+- B3: Mở teminal và chạy ứng dụng bằng lệnh:
+  flutter run
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+2. Hướng dẫn build file .apk 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- B1: Mở dự án flutter của bạn trong Android Studio hoặc VScode
+- B2: Mở teminal và chạy lệnh build apk:
+      flutter build apk
+-> Sau khi build xong, APK sẽ được lưu ở đường dẫn: 
+build/app/outputs/flutter-apk/app-release.apk
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- B3: Copy file APK đó vào điện thoại và cài đặt trực tiếp.
