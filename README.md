@@ -1,16 +1,23 @@
 # music_app
 
-A new Flutter project.
+1. Guide to Running a Flutter App on a Virtual Device:
 
-## Getting Started
+- Step 1: Open the Flutter project (music_app) in Android Studio or VSCode.
 
-This project is a starting point for a Flutter application.
+- Step 2: Select the device: Start Medium Phone API 35.
 
-A few resources to get you started if this is your first Flutter project:
+- Step 3: Open the terminal and run the app using the command: flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+2. Guide to Building an APK File:
+
+- Step 1: Open your Flutter project in Android Studio or VSCode.
+
+- Step 2: Open the terminal and run the command to build the APK: 
+    flutter build apk 
+    
+-> Once the build is complete, the APK will be saved at the path: 
+build/app/outputs/flutter-apk/app-release.apk
+
+- Step 3: Copy the APK file to your phone and install it directly.
